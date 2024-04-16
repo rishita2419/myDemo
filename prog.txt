@@ -1,0 +1,107 @@
+ 1   // function outer(a:any){
+    //     return function(b:any){
+    //         return function(c:any){
+    //            return a*b*c
+    //         }
+    //     }
+    // }
+    // console.log(outer(1)(2)(3))
+
+2 // palindrome 
+
+    // let word1 ="popm"
+    // let word2 = "popm"
+
+    // console.log(word1.split('').reverse().join('') == word2)
+
+
+    // function palindrome(x:any){
+    //     return x == x.split('').reverse().join('')
+    // }
+
+    // console.log(palindrome('poop'))
+
+
+        3// function add(num:any){
+        //     for(let i=0;i<=num;i++){
+        //         if(i==1||i==2||i==4){
+        //          console.log(i)
+        //         }else if (i==2){
+        //          console.log(i)
+        //         }else if(i==3 || i==5){
+        //             console.log("fishBuzz")
+        //         }
+        //     }
+        // }    
+        // add(3)
+
+// 4 
+        //  let str ="Welcome to this Javascript Guide!"
+        //  console.log(str)
+        //  let x = str.split(' ')
+        // console.log(x.map(x => x.split('').reverse().join('')).join(' '))
+
+//5
+    // let arr1:any = [11,55,44,33,1,5,]
+    // let arr2:any = []
+    // arr2 ==arr1
+    // arr1 = []
+    // console.log(arr1)
+
+//6
+    // function out(x:any){
+    //     return function(y:any){
+    //         return x += y;
+    //     }
+    // }
+    // let x = out(1)
+    // console.log(x(2))
+
+7   // function add1(a,b,call){
+    //     let res = call(a,b)
+    //     console.log(res)
+    // }
+
+    // function add(a,b){
+    //     return a+b
+    // }
+    // add1(2,4,add)
+8
+
+// function fact(num){
+//    if(num==1){
+//       return 1
+//    }else{
+//       return num* fact(num-1)
+//    }
+// }
+// console.log(fact(4))
+
+9
+
+// function prime(num){
+//    for(let i=2;i<=Math.sqrt(num);i++){
+//       if(num%i==0){
+//          return false
+//       }
+//    }return true
+// }
+// console.log(prime(17))
+
+10
+
+// function fibonacciSequence(numTerms) { 
+
+//   let sequence = [0, 1]; 
+
+//   while (sequence.length < numTerms) { 
+
+//     let nextNumber = sequence[sequence.length-1] + sequence[sequence.length-2]; 
+
+//     sequence.push(nextNumber); 
+
+//   } 
+
+//   return sequence; 
+// }
+// console.log(fibonacciSequence(6))
